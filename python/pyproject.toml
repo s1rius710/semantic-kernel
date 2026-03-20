@@ -90,7 +90,7 @@ anthropic = [
     "anthropic ~= 0.32"
 ]
 pinecone = [
-    "pinecone-client ~= 5.0"
+    "pinecone-client >= 5,< 7"
 ]
 postgres = [
     "psycopg[binary,pool] ~= 3.2"
